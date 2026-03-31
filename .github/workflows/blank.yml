@@ -39,13 +39,18 @@ jobs:
         run: |
           echo ##[group]Print group
           echo 2026-03-31T09:43:19.9461455Z 循环 100000 次，每次打印计数
-          echo 2026-03-31T09:43:19.9462550Z ((i=1; i<=100000; i++)); do
-          echo 2026-03-31T09:43:19.9463550Z echo "第 $i 次打印"
-          echo 2026-03-31T09:43:19.9464754Z sleep 0.005
-          echo 2026-03-31T09:43:19.9865310Z shell: /usr/bin/bash -e {0}
-          echo Add other actions to build
-          echo ##[endgroup]
-          echo 2026-03-31T09:43:19.9866765Z ##[endgroup]          
+          echo 2026-03-31T09:43:19.9461455Z 循环 100000 次，每次打印计数
+          echo 2026-03-31T09:43:19.9461455Z 循环 100000 次，每次打印计数
+          echo 2026-03-31T09:43:19.9461455Z 循环 100000 次，每次打印计数
+          echo 2026-03-31T09:43:19.9461455Z 循环 100000 次，每次打印计数 
+          echo ##[endgroup]          
+          
+          # echo 2026-03-31T09:43:19.9462550Z ((i=1; i<=100000; i++))
+          # echo 2026-03-31T09:43:19.9463550Z echo "第 $i 次打印"
+          # echo 2026-03-31T09:43:19.9464754Z sleep 0.005
+          # echo 2026-03-31T09:43:19.9865310Z shell: /usr/bin/bash -e {0}
+          # echo Add other actions to build
+          # echo 2026-03-31T09:43:19.9866765Z ##[endgroup]          
           
       - name: Print 100000 times
         run: |
