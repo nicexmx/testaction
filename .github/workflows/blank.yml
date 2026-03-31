@@ -45,10 +45,8 @@ jobs:
           echo 2026-03-31T09:43:19.9465612Z [36;1mdone[0m
           echo 2026-03-31T09:43:19.9865310Z shell: /usr/bin/bash -e {0}
           echo 2026-03-31T09:43:19.9866765Z ##[endgroup]
-          echo Add other actions to build,
+          echo Add other actions to build
           echo ##[endgroup]
-
-
           
       - name: Print 100000 times
         run: |
