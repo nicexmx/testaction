@@ -42,5 +42,5 @@ jobs:
           # 循环 100000 次，每次打印计数
           for ((i=1; i<=100000; i++)); do
             echo "第 $i 次打印"
-            sleep 1
+            sleep 0.005
           done
